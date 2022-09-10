@@ -1,0 +1,93 @@
+.mobile_navbar{
+  background-color: #2B150D;
+  padding: 25px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  display: none;
+}
+
+
+
+/* search bar */
+
+.search-box {
+  width:calc(100% - 160px);
+  position: relative;
+  display: flex;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.search-input {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  padding: 15px 22px 15px 22px;
+  background-color: #FFFFFF;
+  font-size: 18px;
+  line-height: 22px;
+  color: #818181;
+  border-radius: 6px;
+  border:none;
+  transition: all .4s;
+}
+
+.search-input:focus {
+  border:none;
+  outline:none;
+  box-shadow: 0 1px 12px #b8c6db;
+  -moz-box-shadow: 0 1px 12px #b8c6db;
+  -webkit-box-shadow: 0 1px 12px #b8c6db;
+}
+
+.search-btn {
+  background-color: transparent;
+  font-size: 18px;
+  padding: 6px 9px;
+  margin-left:-45px;
+  border:none;
+  color: #6c6c6c;
+  transition: all .4s;
+  z-index: 10;
+}
+
+.search-btn:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  color: black;
+}
+
+.search-btn:focus {
+  outline:none;
+  color:black;
+}
+.kebab_icon{
+  width: 42px;
+}
+.call_icon{
+  width: 42px;
+}
+@media(max-width:750px){
+  .mobile_navbar{
+    display: flex;
+  }
+}
+@media(max-width : 470px){
+  .mobile_navbar{
+    padding: 20px 10px;
+  }
+  .kebab_icon{
+    width: 30px;
+  }
+  .call_icon{
+    width: 30px;
+  }
+  .search-box{
+    width: calc(100% - 80px);
+  }
+  .mobile_navbar::-webkit-input-placeholder {
+    color:transparent;
+  }
+}

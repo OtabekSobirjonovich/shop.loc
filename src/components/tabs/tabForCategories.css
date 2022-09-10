@@ -1,0 +1,232 @@
+.for_tab{
+  padding: 0;
+  margin: 0;
+}
+.for_tab .nav-tabs{
+  background-color: #F9F8F3;
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25px;
+  position: relative;
+}
+.for_tab .nav-tabs h2{
+  margin-bottom: 0;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.for_tab .nav-tabs h1{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #BBBBBB !important;
+  margin-bottom: 0;
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+.for_tab .nav-tabs h1 b{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #FF7A1B;
+}
+.for_tab .nav-tabs .nav-item{
+  cursor: pointer;
+}
+.for_tab .nav-tabs .nav-item .nav-link{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #898989;
+}
+.for_tab .nav-tabs .nav-item .active{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+.for_tab .nav-tabs .nav-item> .active{
+  border-bottom: 3px solid #FF7A1B;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+
+.for_tab .tab-content .tab-pane .cards_collection{
+  display: grid;
+  grid-template-columns: repeat(auto-fill , minmax(305px , 1fr));
+  gap: 0;
+}
+.for_tab .tab-content .tab-pane .cards_collection .card{
+  padding: 20px 10px;
+  background: #FFFFFF;
+  border-radius: 0;
+}
+.for_tab .tab-content .tab-pane .cards_collection .card .content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.for_tab .tab-content .tab-pane .cards_collection .card .content .for_image{
+  width: 100%;
+  height: 250px;
+  transition: 0.5s linear all;
+}
+.for_tab .tab-content .tab-pane .cards_collection .card .content .for_image img{
+  width: 100%;
+  height: 100%;
+  transition: 0.5s linear all;
+}
+.for_tab .tab-content .tab-pane .cards_collection .card .content .for_subheader{
+  padding: 0 2px;
+  width: 100%;
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.for_tab .tab-content .tab-pane .cards_collection .card .content .for_subheader h3{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  opacity: 0.68;
+}
+.for_tab .tab-content .tab-pane .cards_collection .card .content .for_header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.for_tab .tab-content .tab-pane .cards_collection .card .content .for_header h1{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.for_tab .tab-content .tab-pane .cards_collection .card .content .for_features{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  gap: 5px;
+}
+.for_tab .tab-content .tab-pane .cards_collection .card .content .for_features >div{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.for_tab .tab-content .tab-pane .cards_collection .card .content .for_features>div p{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  gap: 6px;
+  margin-bottom: 0;
+}
+.for_tab .tab-content .tab-pane .cards_collection .card .content .for_cost_actions{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.for_tab .tab-content .tab-pane .cards_collection .card .content .for_cost_actions .costs{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.for_tab .tab-content .tab-pane .cards_collection .card .content .for_cost_actions .costs p{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 0;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-decoration-line: line-through;
+  color: #BBBBBB;
+}
+.for_tab .tab-content .tab-pane .cards_collection .card .content .for_cost_actions .costs button{
+  width: 50px;
+  height: 25px;
+  border: none;
+  outline: none;
+  background-color: #FFD634;
+}
+.for_tab .tab-content .tab-pane .cards_collection .card .content .for_cost_actions .costs h2{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #FF3838;
+}
+.for_tab .tab-content .tab-pane .cards_collection .card .content .for_cost_actions .buying{
+  height: 100%;
+  width: 131px;
+}
+.for_tab .tab-content .tab-pane .cards_collection .card .content .for_cost_actions .buying button{
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: #FFD634;
+  border-radius: 5px;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2B150D;
+}

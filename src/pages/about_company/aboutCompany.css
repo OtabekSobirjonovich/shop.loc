@@ -1,0 +1,878 @@
+.about_company{
+  gap: 0;
+}
+.about_company .main_part{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+.main_part .heading{
+  padding: 0px 185px;
+  width: 100%;
+}
+.main_part .heading .pagination{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.main_part .heading .pagination a{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #BBBBBB;
+  text-decoration: none;
+}
+.main_part .heading .pagination p{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #BBBBBB;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+.main_part .heading h1{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.main_part .short_information{
+  background-color: #FFD634;
+  padding: 0 185px;
+  width: 100%;
+  margin-top: 35px;
+}
+.main_part .short_information .wrapper{
+  border-left: 4px solid #FFFFFF;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  position: relative;
+}
+.main_part .short_information .wrapper .for_info{
+  padding: 83px 700px 53px 43px;
+}
+.main_part .short_information .wrapper .for_info h2{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 172.5%;
+  color: #000000;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  border-bottom: 4px solid #FF7A1B;
+  margin-right: 100px;
+}
+.main_part .short_information .wrapper .for_info p{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+.main_part .short_information .wrapper .for_image{
+  position: absolute;
+  background-color: #FFFFFF;
+  width: 600px;
+  height: 280px;
+  right: 0;
+  border-radius: 6px;
+  border-top-left-radius: 0;
+}
+.main_part .short_information .wrapper .for_image img{
+  width: 600px;
+  position: absolute;
+  height: 320px;
+  right: 0;
+  top: -50px;
+  left: 10px;
+  border-radius:6px;
+}
+.main_part .short_information .wrapper .absolute_circle{
+  position: absolute;
+  left: -23px;
+  top: 20%;
+}
+.main_part .advanced_information{
+  padding: 0px 185px;
+}
+.main_part .advanced_information .first_part{
+  padding: 49px 0 49px 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill , minmax(400px , 1fr));
+  gap: 2rem;
+  border-left: 4px solid #EBEBEB;
+  border-bottom: 4px solid #EBEBEB;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: none;
+  position: relative;
+}
+.main_part .advanced_information .first_part .card{
+  border: none;
+}
+.main_part .advanced_information .first_part .card .for_image{
+  width: 100%;
+}
+.main_part .advanced_information .first_part .card .for_image img{
+  width: 100%;
+}
+.main_part .advanced_information .first_part .card .info{
+  width: 100%;
+}
+.main_part .advanced_information .first_part .card .info h2{
+  margin-bottom: 0;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 172.5%;
+  color: #000000;
+}
+.main_part .advanced_information .first_part .card .info p{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 172.5%;
+  color: #000000;
+}
+.main_part .advanced_information .first_part .absolute_circle{
+  position: absolute;
+}
+.main_part .advanced_information .first_part #absolute_circle1{
+  bottom: -20px;
+  left: 25%;
+}
+.main_part .advanced_information .first_part #absolute_circle2{
+  bottom: -20px;
+  left: 50%;
+}
+.main_part .advanced_information .first_part #absolute_circle3{
+  bottom: -20px;
+  left: 75%;
+}
+.main_part .advanced_information .first_part .card>img{
+  display: none;
+}
+.main_part .advanced_information .second_part{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 50px 10px ;
+  gap: 45px;
+  border-right: 4px solid #EBEBEB;
+  border-bottom: 4px solid #EBEBEB;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius:5px;
+  position: relative;
+}
+.main_part .advanced_information .second_part .card{
+  border: none;
+  width: 460px;
+}
+.main_part .advanced_information .second_part .card .for_image{
+  width: 100%;
+}
+.main_part .advanced_information .second_part .card .for_image img{
+  width: 100%;
+}
+.main_part .advanced_information .second_part .card .info{
+  width: 100%;
+}
+.main_part .advanced_information .second_part .card .info h2{
+  margin-bottom: 0;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 172.5%;
+  color: #000000;
+}
+.main_part .advanced_information .second_part .card .info p{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 172.5%;
+  color: #000000;
+}
+.main_part .advanced_information .second_part .card>img{
+  display: none;
+}
+.main_part .advanced_information .second_part .absolute_circle{
+  position: absolute;
+  bottom: -20px;
+}
+.main_part .advanced_information .second_part #absolute_circle2{
+  left: 33%;
+}
+.main_part .advanced_information .second_part #absolute_circle3{
+  left: 66%;
+}
+.main_part .advanced_information .third_part{
+  width: 100%;
+}
+.main_part .advanced_information .third_part .heading{
+  width: 100%;
+  padding: 0;
+  padding-top: 65px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border-left:4px solid #FF7A1B;
+  border-top-left-radius:5px;
+}
+.main_part .advanced_information .third_part .heading h1{
+  margin-bottom: 0;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 172.5%;
+  color: #000000;
+  position: relative;
+  border-bottom: 2px solid #EBEBEB;
+}
+.main_part .advanced_information .third_part .heading .absolute_circle{
+  position: absolute;
+  left: 165px;
+}
+.main_part .advanced_information .third_part .info{
+  margin-top: 40px;
+  padding: 0 45px;
+}
+.main_part .advanced_information .third_part .info .images{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill , minmax(450px , 1fr));
+  gap: 2rem;
+}
+.main_part .advanced_information .third_part .info .images img{
+  transition: 0.3s linear all;
+}
+.main_part .advanced_information .third_part .info .images img:hover{
+  cursor: pointer;
+  filter: brightness(0.6);
+}
+.main_part .why_choosing_us{
+  padding: 90px 185px 0 185px;
+  width: 100%;
+}
+.main_part .why_choosing_us .heading{
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-bottom: 80px;
+}
+.main_part .why_choosing_us .heading h1{
+  margin-bottom: 0;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 172.5%;
+  color: #000000;
+  padding-bottom: 5px;
+  width: 98%;
+  border-bottom: 2px solid #EBEBEB;
+}
+.main_part .why_choosing_us .info{
+  width: 100%;
+}
+.main_part .why_choosing_us .info .cards{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill , minmax(350px , 1fr));
+  gap: 15px;
+}
+.main_part .why_choosing_us .info .cards .card{
+  border: none;
+}
+.main_part .why_choosing_us .info .cards .card .for_image{
+  width: 100%;
+}
+.main_part .why_choosing_us .info .cards .card .for_content{
+  width: 100%;
+  padding-top: 30px;
+}
+.main_part .why_choosing_us .info .cards .card .for_content h2{
+  margin-bottom: 0;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 152.5%;
+  color: #000000;
+}
+.main_part .why_choosing_us .info .cards .card .for_content p{
+  margin-bottom: 0;
+  padding-top: 5px;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 142.5%;
+  color: #000000;
+}
+.main_part .comments{
+  width: 100%;
+}
+.main_part .comments .heading{
+  padding: 70px 185px 30px 185px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.main_part .comments .heading h1{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 172.5%;
+  color: #000000;
+}
+.main_part .comments .info{
+  background-color: #FFD634;
+  padding: 63px 185px;
+}
+.main_part .comments .info .slider_feedback .slick-prev{
+  top: 50%;
+  left: -35px;
+  background-color: #FF7A1B;
+}
+.main_part .comments .info .slider_feedback .slick-prev::before{
+  margin-right: 2.5px;
+}
+.main_part .comments .info .slider_feedback .slick-next{
+  top: 50%;
+  right: -35px;
+  background-color: #FF7A1B;
+}
+.main_part .comments .info .slider_feedback .slick-next::before{
+  margin-left: 2.5px;
+}
+.main_part .details_of_company{
+  padding: 50px 185px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main_part .details_of_company .info{
+  width: 50%;
+}
+.main_part .details_of_company .info .heading{
+  padding: 0;
+  display: flex;
+  align-items:center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.main_part .details_of_company .info .heading h1{
+  margin-bottom: 0;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 172.5%;
+  color: #000000;
+}
+.main_part .details_of_company .info .content{
+  padding-top: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.main_part .details_of_company .info .content >div p{
+  font-family: '{Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 0;
+}
+.main_part .details_of_company .info .content >div h2{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 0;
+}
+.main_part .details_of_company .info .content >div .yuridic_address{
+  margin-top: 10px;
+}
+.main_part .details_of_company .location{
+  width: 45%;
+}
+.main_part .details_of_company .location img{
+  width: 100%;
+}
+.main_part .subscription_form{
+  background-color: #F9F8F3;
+  padding: 45px 185px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.main_part .subscription_form h1{
+  margin-bottom: 0;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.main_part .subscription_form form{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.main_part .subscription_form form input{
+  background-color: #FFFFFF;
+  border: none;
+  outline: none;
+  padding: 0 7px;
+  height: 50px;
+  border-radius: 6px;
+}
+.main_part .subscription_form form button{
+  background-color: #FF7A1B;
+  border: none;
+  outline: none;
+  width: 223px;
+  height: 50px;
+  border-radius: 6px;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+}
+
+
+/* media queries */
+@media(max-width:1750px){
+  .about_company .main_part .heading{
+    padding: 0 100px;
+  }
+  .about_company .main_part .short_information{
+    padding: 0 100px;
+  }
+  .about_company .main_part .advanced_information{
+    padding: 0 100px;
+  }
+  .about_company .main_part .advanced_information .third_part .heading .absolute_circle{
+    left: 80px;
+  }
+  .about_company .main_part .advanced_information .third_part .info .images{
+    grid-template-columns: repeat(auto-fill , minmax(450px , 1fr));
+    justify-content: center;
+  }
+  .about_company .main_part .advanced_information .third_part .info .images img{
+    width: 100%;
+  }
+  .about_company .main_part .why_choosing_us{
+    padding: 90px 100px 0 100px;
+  }
+  .about_company .main_part .why_choosing_us .heading{
+    padding: 0;
+  }
+  .about_company .main_part .comments .info{
+    padding: 53px 100px;
+  }
+  .about_company .main_part .details_of_company{
+    padding: 50px 100px;
+  }
+  .about_company .main_part .subscription_form{
+    padding: 45px 100px;
+  }
+}
+@media(max-width:1600px){
+  .about_company .main_part .heading{
+    padding: 0 10px;
+  }
+  .about_company .main_part .short_information{
+    padding: 0 25px;
+  }
+  .about_company .main_part .advanced_information{
+    padding: 0 25px;
+  }
+  .about_company .main_part .advanced_information .third_part .heading .absolute_circle{
+    left: 5px;
+  }
+  .about_company .main_part .why_choosing_us{
+    padding: 90px 25px 0 25px;
+  }
+  .about_company .main_part .comments .info{
+    padding: 50px 45px;
+  }
+  .about_company .main_part .details_of_company{
+    padding: 50px 25px;
+  }
+  .about_company .main_part .subscription_form{
+    padding: 40px 25px;
+  }
+}
+@media(max-width:1197px){
+  .about_company .main_part .short_information .wrapper{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .about_company .main_part .short_information .wrapper .for_info{
+    padding: 33px 20px;
+  }
+  .about_company .main_part .short_information .wrapper .for_image{
+    position: inherit;
+  }
+  .about_company .main_part .short_information .wrapper .for_info h2{
+    margin-right: 300px;
+  }
+  .about_company .main_part .advanced_information .third_part .info .images{
+    grid-template-columns: repeat(auto-fill , minmax(300px , 1fr));
+  }
+  .about_company .main_part .subscription_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .about_company .main_part .subscription_form form{
+    gap: 50px;
+  }
+  .about_company .main_part .why_choosing_us .info .cards .card .for_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about_company .main_part .why_choosing_us .info .cards .card .for_content h2{
+    text-align: center;
+  }
+  .about_company .main_part .why_choosing_us .info .cards .card .for_content p{
+    text-align: center;
+  }
+  .about_company .main_part .comments{
+    margin-top: 45px;
+  }
+}
+@media(max-width:1023px){
+  .about_company .main_part .short_information .wrapper .for_image{
+    margin-top: 30px;
+  }
+  .about_company .main_part .short_information .wrapper .for_info h2{
+    margin-right: 0;
+    text-align: center;
+  }
+  .about_company .main_part .short_information .wrapper .for_info p{
+    text-align: center;
+  }
+  .about_company .main_part .advanced_information .first_part #absolute_circle1{
+    left: 30%;
+  }
+  .about_company .main_part .advanced_information .first_part #absolute_circle2{
+    left: 66%;
+  }
+  .about_company .main_part .advanced_information .first_part #absolute_circle3{
+    display: none;
+  }
+}
+@media(max-width:990px){
+  .about_company .main_part .advanced_information .first_part{
+    grid-template-columns: repeat(auto-fill , minmax(300px , 1fr));
+  }
+  .about_company .main_part .details_of_company{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .about_company .main_part .details_of_company .info{
+    width: 100%;
+  }
+  .about_company .main_part .details_of_company .location{
+    width: 100%;
+  }
+}
+
+@media(max-width:720px){
+  .about_company .main_part .short_information .wrapper .for_image{
+    width: 100%;
+  }
+  .about_company .main_part .short_information .wrapper .for_image img{
+    width: 100%;
+    left: 20px;
+    top: -60px;
+  }
+  .about_company .main_part .short_information .wrapper{
+    border-left: none;
+    border-right: 4px solid #FFFFFF;
+    flex-direction: column;
+  }
+  .about_company .main_part .short_information .wrapper .absolute_circle{
+    right: -25px;
+    left: inherit;
+    top: 10%;
+  }
+  .about_company .main_part .advanced_information .first_part{
+    padding:  0;
+    border-left: none;
+    border-bottom: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .about_company .main_part .advanced_information .first_part #absolute_circle1{
+    display: none;
+  }
+  .about_company .main_part .advanced_information .first_part #absolute_circle2{
+    display: none;
+  }
+  .about_company .main_part .advanced_information .first_part .card{
+    border-radius: 0;
+  }
+  .about_company .main_part .advanced_information .first_part .card>img{
+    display: block;
+  }
+  .about_company .main_part .advanced_information .first_part .card:first-child{
+    width: 100%;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    border-right: 4px solid #EBEBEB;
+    border-bottom: 4px solid #EBEBEB;
+    position: relative;
+  }
+  .about_company .main_part .advanced_information .first_part .card:first-child #first{
+    position: absolute;
+    right: -23px;
+    top: 50%;
+    z-index: 2;
+  }
+  .about_company .main_part .advanced_information .first_part .card:first-child #second{
+    position: absolute;
+    right: 50%;
+    bottom: -23px;
+    z-index: 2;
+  }
+  .about_company .main_part .advanced_information .first_part .card:nth-child(2){
+    padding: 35px 40px;
+    border-left: 4px solid #EBEBEB;
+    border-bottom: 4px solid #EBEBEB;
+  }
+  .about_company .main_part .advanced_information .first_part .card:nth-child(2) #first{
+    position: absolute;
+    left: -23px;
+    top: 50%;
+    z-index: 2;
+  }
+  .about_company .main_part .advanced_information .first_part .card:nth-child(2) #second{
+    position: absolute;
+    right: 50%;
+    bottom: -23px;
+    z-index: 2;
+  }
+  .about_company .main_part .advanced_information .first_part .card:nth-child(3){
+    padding: 35px 40px;
+    border-right: 4px solid #EBEBEB;
+    border-bottom: 4px solid #EBEBEB;
+  }
+  .about_company .main_part .advanced_information .first_part .card:nth-child(3) #first{
+    position: absolute;
+    right: -23px;
+    top: 50%;
+    z-index: 2;
+  }
+  .about_company .main_part .advanced_information .first_part .card:nth-child(3) #second{
+    position: absolute;
+    right: 50%;
+    bottom: -23px;
+    z-index: 2;
+  }
+  .about_company .main_part .advanced_information .second_part{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+    border-right:none;
+  }
+  .about_company .main_part .advanced_information .second_part .card{
+    width: 100%;
+    padding: 35px 40px;
+    border-radius: 0;
+  }
+  .about_company .main_part .advanced_information .second_part .card:first-child{
+    border-left:4px solid #EBEBEB;
+    border-bottom: 4px solid #EBEBEB;
+  }
+  .about_company .main_part .advanced_information .second_part .card:first-child #first{
+    position: absolute;
+    left: -23px;
+    top: 50%;
+    z-index: 2;
+  }
+  .about_company .main_part .advanced_information .second_part .card:first-child #second{
+    position: absolute;
+    right: 50%;
+    bottom: -23px;
+    z-index: 2;
+  }
+  .about_company .main_part .advanced_information .second_part .card:nth-child(2){
+    border-right: 4px solid #EBEBEB;
+  }
+  .about_company .main_part .advanced_information .second_part .card:nth-child(2) #first{
+    position: absolute;
+    right: -23px;
+    top: 50%;
+    z-index: 2;
+  }
+  .about_company .main_part .advanced_information .second_part #absolute_circle2{
+    display: none;
+  }
+  .about_company .main_part .advanced_information .second_part #absolute_circle3{
+    left: 50%;
+  }
+  .about_company .main_part .advanced_information .second_part .card>img{
+    display: block;
+  }
+  .about_company .main_part .why_choosing_us .info .cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(220px , 1fr));
+  }
+  .about_company .main_part .subscription_form h1{
+    text-align: center;
+  }
+  .about_company .main_part .subscription_form form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .about_company .main_part .subscription_form form input{
+    width: 100%;
+  }
+  .about_company .main_part .subscription_form form button{
+    width: 100%;
+  }
+}
+@media(max-width:450px){
+  .about_company .main_part .short_information{
+    padding-right: 25px;
+    padding-left: 10px;
+  }
+  .about_company .main_part .advanced_information .third_part .heading h1{
+    font-size: 20px;
+  }
+  .about_company .main_part .why_choosing_us .heading h1{
+    font-size: 20px;
+  }
+  .about_company .main_part .comments .heading{
+    padding-bottom: 20px;
+  }
+  .about_company .main_part .comments .heading h1{
+    font-size: 20px;
+  }
+  .about_company .main_part .details_of_company .info .heading h1{
+    font-size: 20px;
+  }
+  .about_company .main_part .details_of_company .info .content {
+    flex-direction: column;
+  }
+  .about_company .main_part .subscription_form h1{
+    font-size: 20px;
+  }
+  .about_company .main_part .advanced_information .third_part .info{
+    padding: 0;
+  }
+  .about_company .main_part .advanced_information .third_part .heading{
+    padding-left: 10px;
+    padding-right: 0;
+  }
+}
+@media(max-width:300px){
+  .about_company .main_part .advanced_information .first_part .card:first-child{
+    padding-left: 0;
+    padding-right: 15px;
+  }
+  .about_company .main_part .advanced_information .first_part .card:nth-child(2){
+    padding-left: 15px;
+    padding-right: 0;
+  }
+  .about_company .main_part .advanced_information .first_part .card:nth-child(3){
+    padding-left: 0;
+    padding-right: 15px;
+  }
+  .about_company .main_part .advanced_information .first_part .card:first-child #second{
+    right: 40%;
+  }
+  .about_company .main_part .advanced_information .first_part .card:nth-child(2) #second{
+    right: 40%;
+  }
+  .about_company .main_part .advanced_information .first_part .card:nth-child(3) #second{
+    right: 40%;
+  }
+  .about_company .main_part .advanced_information .second_part .card:first-child{
+    padding-left: 15px;
+    padding-right: 0;
+  }
+  .about_company .main_part .advanced_information .second_part .card:first-child #second{
+    right: 40%;
+  }
+  .about_company .main_part .advanced_information .second_part .card:nth-child(2){
+    padding-left: 0;
+    padding-right: 15px;
+  }
+  .about_company .main_part .advanced_information .third_part .heading{
+    padding-top: 25px;
+  }
+  .about_company .main_part .advanced_information .third_part .info .images{
+    width: 100%;
+    grid-template-columns: repeat(auto-fill , minmax(250px , 1fr));
+  }
+  .about_company .main_part .comments .info{
+    padding: 30px 10px;
+  }
+  .about_company .main_part .comments .info .slider_feedback .slick-prev{
+    left: -5px;
+  }
+  .about_company .main_part .comments .info .slider_feedback .slick-next{
+    right: -5px;
+  }
+  .about_company .main_part .short_information .wrapper .for_info h2{
+    font-size: 20px;
+    line-height: 120%;
+  }
+}

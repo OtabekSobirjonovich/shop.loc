@@ -1,0 +1,201 @@
+.sending_comment_form{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 3;
+}
+.sending_comment_form .info{
+  width: 600px;
+  max-height: 700px;
+  background-color: #FFFFFF;
+  padding: 15px;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 6px 15px 0 rgba(0, 0, 0, .5);
+  animation: show .5s ease-in-out;
+}
+@keyframes show {
+  from{top: 70%; opacity: 0}
+  to{top: 50%; opacity: 1;}
+}
+.sending_comment_form .closing_btn{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 30px;
+  height: 30px;
+  background-color: #FF7A1B;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.sending_comment_form .form{
+  width: 100%;
+
+}
+.sending_comment_form .form .for_heading{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sending_comment_form .form .for_heading h1{
+  width: 100%;
+  text-align: center;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+  margin-bottom: 0;
+}
+.sending_comment_form .form .for_heading h2{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6D6D6D;
+}
+.sending_comment_form .form input{
+  width: 100%;
+  padding: 10px 17px;
+  border: 1px solid #E8E8E8;
+  border-radius: 6px;
+}
+.sending_comment_form .form .for_name{
+  margin-top: 20px;
+}
+.sending_comment_form .form .for_number{
+  margin-top: 10px;
+}
+.sending_comment_form .form textarea{
+  width: 100%;
+  padding: 10px 17px;
+  border: 1px solid #E8E8E8;
+  border-radius: 6px;
+  height: 125px;
+  margin-top: 10px;
+}
+.sending_comment_form .form .evaluating{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 5px;
+  display: none;
+}
+.sending_comment_form .form .evaluating>div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 2px dotted #EBEBEB;
+}
+.sending_comment_form .form .evaluating>div p{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22.0032px;
+  line-height: 26px;
+  color: #000000;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.sending_comment_form .form .evaluating>div .for_image{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 7px;
+}
+.sending_comment_form .form .evaluating>div .for_image p{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22.0032px;
+  line-height: 26px;
+  color: #000000;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.sending_comment_form .form .evaluating>div .for_image button{
+  width: 18px;
+  height: 16px;
+  border: none;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #BBBBBB;
+}
+.sending_comment_form .form .evaluating>div .for_image .important_button{
+  color: yellow;
+}
+.sending_comment_form .form .evaluating>div .for_image>i{
+  margin-left: 10px;
+  color: red;
+  opacity: 0;
+  transform: translateX(40px);
+  transition: 0.3s ease-in-out all;
+}
+.sending_comment_form .form .submit_button{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sending_comment_form .form .submit_button button{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  background-color: #52C12A;
+  padding: 12px 57px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+}
+.sending_comment_form .form .submit_button p{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration-line: underline;
+  color: #2B150D;
+  margin-bottom: 0;
+  cursor:pointer;
+}
+
+/* media quaeries */
+@media(max-width:1000px){
+  .sending_comment_form .info{
+    width: 90%;
+  }
+}
+@media(max-width:500px){
+  .sending_comment_form .form .submit_button{
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+  .sending_comment_form .form .submit_button p{
+    display: none;
+  }
+  .sending_comment_form .form .submit_button button{
+    width: 100%;
+  }
+}

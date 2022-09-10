@@ -1,0 +1,28 @@
+.for_accordion{
+  width: 268px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: #F6F6F6;
+}
+.for_accordion .accordion{
+  --bs-accordion-bg: #F6F6F6;
+}
+.for_accordion .accordion-item{
+  background-color: #F6F6F6;
+}
+.for_accordion .accordion-header{
+  background-color: #F6F6F6;
+}
+.for_accordion .accordion-header .accordion-button{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}

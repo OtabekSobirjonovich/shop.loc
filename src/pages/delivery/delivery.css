@@ -1,0 +1,584 @@
+.delivery_page .delivery_section{
+  padding: 0 185px;
+}
+.delivery_page .delivery_section .pagination{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.delivery_page .delivery_section .pagination p{
+  margin-bottom: 0;
+  color: #BBBBBB;
+}
+.delivery_page .delivery_section .pagination a{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #BBBBBB;
+  text-decoration: none;
+  transition: 0.3s linear all;
+}
+.delivery_page .delivery_section .pagination a:hover{
+  color: #FF7A1B;
+  font-weight: bold;
+}
+.delivery_page .delivery_section .delivery_and_payment{
+  width: 100%;
+}
+.delivery_page .delivery_section .delivery_and_payment h1{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+  margin-bottom: 0;
+}
+.delivery_page .delivery_section .delivery_and_payment .delivery_to_moscow{
+  padding: 0 10px;
+  margin-top: 60px;
+  width: 100%;
+}
+.delivery_page .delivery_section .delivery_and_payment>div h1{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 172.5%;
+  color: #000000;
+  width: 100%;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #E8E8E8;
+}
+.delivery_page .delivery_section .delivery_and_payment .delivery_to_moscow .cards{
+  padding: 0 50px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill , minmax(450px , 1fr));
+  gap: 2rem;
+}
+.delivery_page .delivery_section .delivery_and_payment .delivery_to_moscow .cards .card{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 10px;
+  border: none;
+}
+.delivery_page .delivery_section .delivery_and_payment .delivery_to_moscow .cards .card h2{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 172.5%;
+  color: #000000;
+  margin-bottom: 0;
+}
+.delivery_page .delivery_section .delivery_and_payment .delivery_to_moscow .cards .card button{
+  padding: 2px 10px;
+  background-color: #FFD634;
+  border: none;
+  outline: none;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 157%;
+  color: #000000;
+}
+.delivery_page .delivery_section .delivery_and_payment .delivery_to_moscow .cards .card ul li{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #000000;
+}
+.delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content{
+  padding: 75px 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill , minmax(600px , 1fr));
+  gap: 90px;
+}
+.delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content .left_part p{
+  margin-bottom: 5px;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 172.5%;
+  color: #000000;
+}
+.delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content .left_part a{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 172.5%;
+  color: #FF7A1B;
+}
+.delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content .left_part .payments{
+  display: grid;
+  grid-template-columns: repeat(auto-fill , minmax(200px , 1fr));
+  gap: 2rem;
+  margin-top: 20px;
+}
+.delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content .left_part .payments .card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 130px;
+  padding: 10px;
+  transition: 0.3s linear all;
+  cursor: pointer;
+}
+.delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content .left_part .payments .card:hover{
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.11);
+}
+.delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content .left_part .giving_question_online{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content .left_part .giving_question_online h3{
+  margin-bottom: 0;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 142.5%;
+  color: #000000;
+  width: 60%;
+}
+.delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content .left_part .giving_question_online button{
+  width: 270px;
+  height: 52px;
+  background-color: #FF7A1B;
+  border: none;
+  outline: none;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  border-radius: 6px;
+}
+.delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content .right_part{
+  width: 100%;
+  height: 100%;
+}
+.delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content .right_part .card{
+  width: 100%;
+  height: 100%;
+  padding: 50px 46px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content .right_part .card .inline_card1{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #EBEBEB;
+}
+.delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content .right_part .card>div p{
+  margin-bottom: 10px;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 160%;
+  color: #000000;
+}
+.delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content .right_part .card .inline_card2{
+  padding-top: 20px;
+}
+.delivery_page .delivery_section .delivery_map{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: #FFD634;
+  border-radius: 5px;
+  margin-bottom: 75px;
+}
+.delivery_page .delivery_section .delivery_map .data {
+  padding: 87px 10px 87px 57px ;
+}
+.delivery_page .delivery_section .delivery_map .data h1{
+  margin-bottom: 0;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 46px;
+  color: #2B150D;
+}
+.delivery_page .delivery_section .delivery_map .data p{
+  margin-bottom: 0;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  color: #2B150D;
+}
+.delivery_page .delivery_section .delivery_map .data .delivery_actions{
+  margin-top: 40px;
+}
+.delivery_page .delivery_section .delivery_map .data .delivery_actions h2{
+  margin-bottom: 0;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  color: #2B150D;
+}
+.delivery_page .delivery_section .delivery_map .data .delivery_actions .buttons{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25px;
+  margin-top: 18px;
+}
+.delivery_page .delivery_section .delivery_map .data .delivery_actions .buttons button{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  padding: 7px 15px;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 6px;
+}
+.delivery_page .delivery_section .delivery_map .map img{
+  width: 100%;
+}
+.delivery_page .delivery_section .partners_section>div{
+  width: 100%;
+}
+.delivery_page .delivery_section .partners_section .transportation_partners{
+  margin-top: 50px;
+}
+.delivery_page .delivery_section .partners_section>div h1{
+  width: 100%;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  border-bottom: 2.5px solid #EBEBEB;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 172.5%;
+  color: #000000;
+}
+.delivery_page .delivery_section .partners_section .payment_methods .cards{
+  margin-top: 30px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill , minmax(180px , 1fr));
+  gap: 31px;
+}
+.delivery_page .delivery_section .partners_section .transportation_partners .cards{
+  margin-top: 30px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill , minmax(250px , 1fr));
+  gap: 31px;
+}
+.delivery_page .delivery_section .partners_section>div .cards .card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  border: none;
+  cursor: pointer;
+}
+.delivery_page .delivery_section .partners_section>div .cards .card .for_image{
+  padding: 10px;
+  border: 2px solid #EBEBEB;
+  width: 100%;
+  height: 120px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s linear all;
+}
+.delivery_page .delivery_section .partners_section .transportation_partners .cards .card .for_image{
+  height: 180px;
+}
+.delivery_page .delivery_section .partners_section>div .cards .card .for_image:hover{
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.11);
+}
+.delivery_page .delivery_section .partners_section>div .cards .card p{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 158.5%;
+  color: #000000;
+  margin-bottom: 0;
+}
+.delivery_page .delivery_section .partners_section>div h3{
+  margin-top: 30px;
+  padding: 0 400px;
+  text-align: center;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 161%;
+  color: #000000;
+}
+.delivery_page .note_section{
+  width: 100%;
+  background-color: #F9F8F3;
+  margin-top: 70px;
+  padding: 30px 185px;
+}
+.delivery_page .note_section h1{
+  margin-bottom: 0;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 172.5%;
+  color: #000000;
+  text-align: center;
+}
+.delivery_page .note_section .cards{
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill , minmax(400px , 1fr));
+  gap: 2rem;
+}
+.delivery_page .note_section .cards .card{
+  background-color: #F9F8F3;
+  border: none;
+}
+.delivery_page .note_section .cards .card .for_image{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.delivery_page .note_section .cards .card p{
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 161%;
+  color: #000000;
+  text-align: center;
+  padding: 0 50px;
+}
+
+
+/* media queries */
+@media(max-width:1750px){
+  .delivery_page .delivery_section{
+    padding: 0 100px;
+  }
+  .delivery_page .note_section{
+    padding: 0 100px;
+  }
+}
+@media(max-width:1600px){
+  .delivery_page .delivery_section{
+    padding: 0 10px;
+  }
+  .delivery_page .note_section{
+    padding: 0 10px;
+  }
+}
+@media(max-width:1280px){
+  .delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content .left_part .giving_question_online{
+    padding-right: 470px;
+  }
+  .delivery_page .delivery_section .partners_section>div h3{
+    padding: 0 380px;
+  }
+}
+@media(max-width:1200px){
+  .delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content .left_part .giving_question_online{
+    padding-right: 0px;
+  }
+  .delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content .left_part .payments{
+    grid-template-columns: repeat(auto-fill , minmax(250px , 1fr));
+  }
+  .delivery_page .delivery_section .delivery_map .data{
+    padding: 20px;
+  }
+}
+@media(max-width:1024px){
+  .delivery_page .delivery_section .partners_section>div h3{
+    padding: 0 230px;
+  }
+}
+@media(max-width:768px){
+  .delivery_page .delivery_section .partners_section>div h3{
+    padding: 0 150px;
+  }
+  .delivery_page .delivery_section .delivery_map{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media(max-width:700px){
+  .delivery_page .delivery_section .partners_section>div h3{
+    padding: 0 50px;
+  }
+  .delivery_page .delivery_section .delivery_and_payment .delivery_to_moscow .cards{
+    padding: 0 10px;
+  }
+  .delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content{
+    padding: 75px 10px;
+  }
+  .delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content .left_part .payments{
+    grid-template-columns: repeat(auto-fill , minmax(200px , 1fr));
+  }
+  .delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content .left_part .giving_question_online{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 15px;
+  }
+  .delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content .left_part .giving_question_online h3{
+    width: 100%;
+    text-align: center;
+  }
+  .delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content .left_part .giving_question_online button{
+    width: 100%;
+  }
+  .delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content{
+    grid-template-columns: repeat(auto-fill , minmax(300px , 1fr));
+  }
+  .delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content .left_part .payments{
+    grid-template-columns: repeat(auto-fill , minmax(180px , 1fr));
+  }
+}
+@media(max-width:576px){
+  .delivery_page .delivery_section .delivery_and_payment .delivery_to_moscow{
+    margin-top: 20px;
+  }
+  .delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content{
+    padding: 20px 10px;
+    gap: 30px;
+  }
+  .delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content .right_part .card{
+    padding: 20px;
+  }
+  .delivery_page .delivery_section .partners_section .transportation_partners .cards{
+    grid-template-columns: repeat(auto-fill , minmax(180px , 1fr));
+  }
+  .delivery_page .delivery_section .delivery_and_payment .delivery_to_moscow .cards{
+    grid-template-columns: repeat(auto-fill , minmax(350px , 1fr));
+  }
+}
+@media(max-width:500px){
+  .delivery_page .delivery_section .partners_section .transportation_partners .cards {
+    grid-template-columns: repeat(auto-fill , minmax(200px , 1fr));
+  }
+  .delivery_page .delivery_section .partners_section>div h3{
+    padding: 0 10px;
+  }
+  .delivery_page .note_section .cards .card p{
+    padding: 0 10px;
+  }
+  .delivery_page .note_section{
+    margin-top: 30px;
+  }
+  .delivery_page .note_section .cards{
+    grid-template-columns: repeat(auto-fill , minmax(200px , 1fr));
+  }
+}
+@media(max-width:400px){
+  .delivery_page .delivery_section .delivery_and_payment .delivery_to_moscow .cards{
+    grid-template-columns: repeat(auto-fill , minmax(200px , 1fr));
+  }
+  .delivery_page .delivery_section .delivery_map .map{
+    display: none;
+  }
+  .delivery_page .delivery_section .delivery_map .data{
+    padding: 10px;
+  }
+  .delivery_page .delivery_section .delivery_map .data .delivery_actions .buttons{
+    flex-direction: column;
+  }
+  .delivery_page .delivery_section .delivery_map .data .delivery_actions .buttons button{
+    width: 100%;
+    padding: 12px 15px;
+  }
+}
+@media(max-width:350px){
+  .delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content{
+    grid-template-columns: repeat(auto-fill , minmax(250px , 1fr));
+  }
+  .delivery_page .delivery_section .delivery_map .data h1{
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .delivery_page .delivery_section .delivery_map .data p{
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .delivery_page .delivery_section .delivery_and_payment .delivery_to_moscow{
+    padding: 0;
+  }
+  .delivery_page .delivery_section .delivery_and_payment .delivery_to_moscow .cards{
+    padding: 0;
+    margin-top: 10px;
+  }
+  .delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content .left_part p{
+    font-size: 17px;
+    line-height: 110%;
+  }
+  .delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content .left_part .giving_question_online h3{
+    font-size: 15px;
+    line-height: 130%;
+  }
+  .delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content .right_part .card>div p{
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .delivery_page .delivery_section .delivery_and_payment .delivery_over_russia .content .right_part .card{
+    padding: 5px;
+  }
+  .delivery_page .delivery_section .partners_section>div h1{
+    font-size: 24px;
+    line-height: 130%;
+  }
+  .delivery_page .delivery_section .partners_section>div h3{
+    padding: 0;
+    font-size: 14px;
+    line-height: 135%;
+  }
+  .delivery_page .note_section h1{
+    font-size: 24px;
+  }
+  .delivery_page .note_section .cards .card p{
+    padding: 0;
+    font-size: 12px;
+    line-height: 130%;
+  }
+}

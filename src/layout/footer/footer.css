@@ -1,0 +1,515 @@
+.footer{
+  background-color: #1F1F1F;
+  /* background-color: red; */
+  padding: 30px 185px;
+}
+
+
+.top_footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #BBBBBB;
+  padding: 0 50px 30px 30px;
+}
+
+.top_footer .first_part{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 98px;
+}
+.top_footer .first_part .buttons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+}
+.top_footer .first_part .buttons .btns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+
+.top_footer .first_part .buttons .btns >button{
+  width: 34px;
+  height: 32px;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+}
+.top_footer .first_part .buttons .btns .orange{
+  background: #FF7A1B;
+}
+.top_footer .first_part .buttons .btns .white{
+  background: #FFFFFF;
+}
+.top_footer .first_part .buttons .btns .yellow{
+  background: #FFD634;
+}
+.top_footer .first_part .buttons p{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  text-align: center;
+  cursor:pointer;
+}
+.top_footer .first_part .location{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+}
+.top_footer .first_part .location p{
+  font-family: 'Poppins' ,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: 0.5s linear all;
+}
+.top_footer .first_part .location p:hover{
+  color: #FF7A1B;
+}
+.top_footer .second_part{
+  display: flex;
+  align-items:flex-start;
+  justify-content: flex-end;
+  gap: 64px;
+}
+.top_footer .second_part .work_graphics{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 4px;
+  align-items: flex-start;
+}
+.top_footer .second_part .work_graphics p{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+.top_footer .second_part .work_graphics b{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #FF7A1B;
+  font-family: "Poppins",sans-serif;
+}
+.top_footer .second_part button{
+  width: 275px;
+  height: 50px;
+  border-radius:6px;
+  background: #FF7A1B;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}
+.middle_footer{
+  padding: 30px 50px 30px 30px;
+  border-bottom: 1px solid #BBBBBB;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.middle_footer .first_part{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 64px;
+}
+.middle_footer .first_part .for_buyers , .about_company, .categories{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.middle_footer .first_part h1{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.middle_footer .first_part ul{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.middle_footer .first_part ul li {
+  list-style-type: none;
+}
+.middle_footer .first_part ul li a{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: 0.5s linear all;
+}
+.middle_footer .first_part ul li a:hover{
+  color: #FF7A1B;
+}
+.middle_footer .second_part{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 86px;
+}
+.middle_footer .second_part .call_for_other_regions h1{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #F9F8F3;
+}
+.middle_footer .second_part .call_for_other_regions .call_number{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin-top: 7px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.middle_footer .second_part .call_for_other_regions b{
+  color: #FF7A1B;
+}
+.middle_footer .second_part .call_for_other_regions h2{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+.middle_footer .second_part .call_for_other_regions .email{
+  margin-bottom: 17px;
+  cursor: pointer;
+  transition: 0.5s linear all;
+}
+.middle_footer .second_part .call_for_other_regions .email:hover{
+  color: #FF7A1B;
+}
+.middle_footer .second_part .call_for_other_regions .web_pages_links{
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15.6px;
+}
+.middle_footer .second_part .call_for_other_regions .web_pages_links a{
+  cursor: pointer;
+}
+.middle_footer .second_part .call_for_moscow h1{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+.middle_footer .second_part .call_for_moscow .call_number{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin-top: 7px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.middle_footer .second_part .call_for_moscow b{
+  color: #FF7A1B;
+}
+.middle_footer .second_part .call_for_moscow h2{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  margin-bottom: 17px;
+}
+.middle_footer .second_part .call_for_moscow .info_partners{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 5px;
+}
+.middle_footer .second_part .call_for_moscow .info_partners p{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150.5%;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.middle_footer .second_part .call_for_moscow .info_partners b{
+  color: #FFFFFF;
+  font-weight: 700;
+}
+.lower_footer{
+  padding: 35px 0px 25px 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.lower_footer .first_part p{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  opacity: 0.75;
+  text-decoration: none;
+  gap: 5px;
+}
+.lower_footer .first_part p:first-child{
+  text-decoration: underline;
+}
+.lower_footer .first_part p:last-child{
+  margin-top: 5px;
+}
+.lower_footer .second_part{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 70px;
+}
+.lower_footer .second_part h1{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  opacity: 0.75;
+}
+.lower_footer .second_part .payment_companies{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+}
+.lower_footer .second_part .payment_companies img{
+  cursor: pointer;
+}
+
+@media(max-width:1700px){
+  .footer{
+    padding: 35px 10px;
+  }
+}
+
+@media(max-width : 1439px){
+  .top_footer .first_part{
+    gap: 50px;
+  }
+  .top_footer .second_part{
+    gap: 50px;
+  }
+  .middle_footer .first_part{
+    gap: 50px;
+  }
+  .middle_footer .second_part{
+    gap: 50px;
+  }
+  .lower_footer .second_part{
+    gap: 40px;
+  }
+}
+@media(max-width:1197px){
+  .top_footer , .middle_footer , .lower_footer{
+    padding: 30px 10px;
+  }
+  .top_footer .first_part{
+    gap: 20px;
+  }
+  .top_footer .second_part{
+    gap: 20px;
+  }
+  .top_footer .second_part button {
+    width: 200px;
+  }
+  .middle_footer .first_part{
+    gap: 20px;
+  }
+  .middle_footer .second_part{
+    gap: 20px;
+  }
+  .lower_footer .second_part .payment_companies{
+    gap: 20px;
+  }
+}
+
+@media(max-width:989px){
+  .top_footer .first_part{
+    gap: 10px;
+  }
+  .top_footer .second_part{
+    gap: 10px;
+  }
+  .top_footer .second_part button {
+    width: 180px;
+  }
+  .middle_footer .first_part{
+    gap: 10px;
+  }
+  .middle_footer .second_part{
+    gap: 10px;
+  }
+  .top_footer .first_part .buttons p{
+    font-size: 13px;
+  }
+  .top_footer .first_part .location p{
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .top_footer .second_part .work_graphics p{
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .middle_footer .first_part h1{
+    font-size: 15px;
+  }
+  .middle_footer .first_part ul li a{
+    font-size: 13px;
+  }
+  .middle_footer .second_part .call_for_other_regions h1 {
+    font-size: 13px;
+  }
+  .middle_footer .second_part .call_for_other_regions .call_number{
+    font-size: 20px;
+  }
+  .middle_footer .second_part .call_for_other_regions h2{
+    font-size: 13px;
+  }
+  .middle_footer .second_part .call_for_other_regions .email{
+    margin-bottom: 10px;
+  }
+  .middle_footer .second_part .call_for_other_regions .web_pages_links a img{
+    width: 30px;
+  }
+  .middle_footer .second_part .call_for_moscow h1{
+    font-size: 13px;
+  }
+  .middle_footer .second_part .call_for_moscow .call_number{
+    font-size: 20px;
+  }
+  .middle_footer .second_part .call_for_moscow h2{
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  .middle_footer .second_part .call_for_moscow .info_partners p{
+    font-size: 13px;
+  }
+  .lower_footer .first_part p{
+    font-size: 13px;
+  }
+  .lower_footer .second_part h1{
+    font-size: 13px;
+  }
+}
+@media(max-width:910px){
+  .top_footer .first_part .buttons p{
+    font-size: 11px;
+  }
+  .top_footer .first_part .location p{
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .top_footer .second_part .work_graphics p{
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .middle_footer .first_part h1{
+    font-size: 13px;
+  }
+  .middle_footer .first_part ul li a{
+    font-size: 11px;
+  }
+  .middle_footer .second_part .call_for_other_regions h1 {
+    font-size: 11px;
+  }
+  .middle_footer .second_part .call_for_other_regions .call_number{
+    font-size: 18px;
+  }
+  .middle_footer .second_part .call_for_other_regions h2{
+    font-size: 11px;
+  }
+  .middle_footer .second_part .call_for_other_regions .email{
+    margin-bottom: 8px;
+  }
+  .middle_footer .second_part .call_for_other_regions .web_pages_links a img{
+    width: 25px;
+  }
+  .middle_footer .second_part .call_for_moscow h1{
+    font-size: 11px;
+  }
+  .middle_footer .second_part .call_for_moscow .call_number{
+    font-size: 18px;
+  }
+  .middle_footer .second_part .call_for_moscow h2{
+    font-size: 11px;
+    margin-bottom: 8px;
+  }
+  .middle_footer .second_part .call_for_moscow .info_partners p{
+    font-size: 11px;
+  }
+  .lower_footer .first_part p{
+    font-size: 11px;
+  }
+  .lower_footer .second_part h1{
+    font-size: 11px;
+  }
+  .lower_footer .second_part{
+    gap: 10px;
+  }
+  .lower_footer .second_part .payment_companies{
+    gap: 7px;
+  }
+}
+@media(max-width:750px){
+  .footer{
+    display: none;
+  }
+}

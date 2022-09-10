@@ -1,0 +1,25 @@
+.main .information_section .bestsellers .store{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  background: rgba(0, 0, 0, 0.4);
+  overflow-y: hidden;
+  /* width: 100vw; */
+  height: 100vh;
+  /* padding: 0 185px; */
+}
+.main .information_section .bestsellers .store .card{
+  animation: show .5s ease-in-out;
+  width: 95%;
+}
+@keyframes show {
+  from{top: 70%; opacity: 0}
+  to{top: 50%; opacity: 1;}
+}
